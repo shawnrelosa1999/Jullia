@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>FOR MY ONE AND ONLY J.P 🌹</title>
+  <link rel="stylesheet" href="jp.css">
+
+</head>
+<body>
+    <div class="heart-fall"></div>
+
+
+
+  <div class="container">
+    <div id="card">
+      <center><h1>DAHIL CRUSH NA CRUSH KITA</h1></center>
+      <div class="heart" id="heart1">
+        <div id="half1">
+          <div id="circle"></div>
+          <div id="rec"></div>
+        </div>
+        <div id="half2">
+          <div id="circle"></div>
+          <div id="rec"></div>
+        </div>
+      </div>
+      <div id="message">
+        <h2>Happy Valentines Day Jullia 💛</h2>
+      </div>
+      <div class="heart" id="heart2">
+        <div id="half1">
+          <div id="circle"></div>
+          <div id="rec"></div>
+        </div>
+        <div id="half2">
+          <div id="circle"></div>
+          <div id="rec"></div>
+        </div>
+      </div>
+    </div>
+
+  
+  <div>
+    <audio controls autoplay>
+      <source src="SONG.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+  
+
+
+  <div class="paper">
+    <div class="lines">
+      <div class="text" contenteditable spellcheck="false">
+
+        Hi Jullia, It's me again, Unang Una syempre Happy Valentines sayo crush hahahah, I hope you're having a fantastic Valentine's Day. 😊 I've been meaning to tell you something, and today seems like the perfect day to share it.
+  I just wanted to let you know that I've been admiring you from afar. Your smile, your kindness, and the way you carry yourself have always caught my attention. You have this unique way of brightening up the room, and it never fails to make my day better.
+  I appreciate the little chats we have, the encouragements and motivations, and I admire the person you are. Your positivity and genuine nature make you stand out, and I feel fortunate to have you in my life, even if it's just from a distance.
+  Wishing you a day filled with love and happiness. If you ever find time, I'd love to get to know you even better.
+  Happy Valentine's Day! 💖   
+  
+ </div>
+    </div>
+    <div class="holes hole-top"></div>
+    <div class="holes hole-middle"></div>
+    <div class="holes hole-bottom"></div>
+  </div>
+
+
+<div>
+  <img src="SF.png" alt="Sunflower Bouquet" class="sunflower-image">\
+</div>
+
+<img src="ME AND YOU.jpg" alt="Me and You" class="bottom-image">
+
+  <script>
+    // Function to create and append falling hearts
+    function createFallingHeart() {
+      const heart = document.createElement('div');
+      heart.className = 'heart-fall';
+      heart.style.left = `${Math.random() * 100}vw`; // Random horizontal position
+      document.body.appendChild(heart);
+      setTimeout(() => {
+        document.body.removeChild(heart); // Remove the heart after animation
+      }, 3000); // Adjust the duration to match the animation duration
+    }
+  
+    // Function to create falling hearts in a loop
+    function startFallingHearts() {
+      setInterval(createFallingHeart, 500); // Adjust the interval as needed
+    }
+  
+    // Start the falling hearts loop when the page loads
+    window.onload = startFallingHearts;
+  </script>
+
+
+</body>
+</html>
